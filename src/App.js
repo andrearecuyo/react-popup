@@ -1,18 +1,11 @@
 import Popup from './components/Popup';
 import './App.css';
-import React, { useState, useEffect} from 'react'
+import React, { useState} from 'react'
 
 
 function App() {
   document.title = 'Glassmorphism Popup'
   const [buttonPopup, setButtonPopup] = useState(false);
-  const [timedPopup, setTimedPopup] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setTimedPopup(true);
-    }, 3000);
-  }, []);
 
   return (
     <div className="App">
