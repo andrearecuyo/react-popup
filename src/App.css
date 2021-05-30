@@ -7,7 +7,7 @@
 }
 
 main {
-  background-image: url(./assets/img/Philosophy.png);
+  background-image: url(./assets/img/gradient-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 32px;
@@ -45,11 +45,11 @@ main .container {
   font-size: 32px;
   line-height: 39px;
   text-align: center;
-  color: #ffffff;
+  color: #de6177;
 }
 .container h4 {
   font-weight: 300;
-  color: #ffffff;
+  color: #de6177;
 }
 .container .btn {
   padding: 16px 45px;
@@ -65,7 +65,7 @@ main .container {
   font-size: 16px;
   line-height: 18px;
   text-align: center;
-  color: #ffffff;
+  color: #de6177;
 }
 .zoomIn {
   -webkit-animation-name: zoomIn;
